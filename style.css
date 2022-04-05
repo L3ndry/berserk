@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundoBody: url(img/fundo.jpg);
+    --fundoMain: rgba(255, 255, 255, 0.922);
+    --fundoNav: rgb(16, 16, 16);
+    --sombraMain: rgba(0, 0, 0, 0.642);
+    --fonteTitulo: 'Bebas Neue';
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: var(--fundoBody);
+    background-color: rgb(16, 15, 15);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    overflow: hidden;
+    background-color: var(--fundoNav);
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    /*margin: auto;*/
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+main {
+    background-color: var(--fundoMain);
+    width: 65vw;
+    height: 100%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-bottom: 2vh;
+    box-shadow: 25px 10px 25px var(--sombraMain);
+}
+
+#titulo {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+
+#autor {
+    text-align: center;
+}
+
+#autor a{
+    text-decoration: none;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+}
+
+#kentaro {
+    width: 30%;
+    display: inline;
+}
+
+#introducao {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+}
+
+.justificado {
+    text-indent: 6vw;
+    font-size: 2.5vw;
+    text-align: justify;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+}
