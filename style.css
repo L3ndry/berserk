@@ -34,7 +34,6 @@ nav li {
 }
 
 nav a {
-    /*margin: auto;*/
     display: block;
     color: white;
     text-align: center;
@@ -63,15 +62,20 @@ main {
     text-align: center;
 }
 
-#autor a{
+#autor a {
     text-decoration: none;
-    font-family: 'Bebas neue', sans-serif;
     color: black;
+    font: 32px 'Bebas neue', sans-serif;
+    padding: 10px;
+}
+
+#autor a:hover {
+    color: red;
+    transition: 0.7s;
 }
 
 #kentaro {
-    width: 30%;
-    display: inline;
+    width: 150px;
 }
 
 #introducao {
