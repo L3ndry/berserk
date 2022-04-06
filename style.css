@@ -43,6 +43,7 @@ nav a {
 main {
     background-color: var(--fundoMain);
     width: 65vw;
+    min-width: 330px;
     height: 100%;
     margin: auto;
     margin-top: 10vh;
@@ -65,8 +66,9 @@ main {
 #autor a {
     text-decoration: none;
     color: black;
-    font: 32px 'Bebas neue', sans-serif;
+    font: 'Bebas neue', sans-serif;
     padding: 10px;
+    font-size: clamp(2rem, 5vw, 50rem);
 }
 
 #autor a:hover {
