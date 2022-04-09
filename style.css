@@ -67,7 +67,7 @@ hr {
     text-align: center;
     font-family: 'Bebas neue', sans-serif;
     color: black;
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 #video-intro {
@@ -145,7 +145,7 @@ ul {
     }
 
     #introducao {
-        font-size: 4vw;
+        font-size: 1.6rem;
     }
 
 }
