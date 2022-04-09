@@ -15,10 +15,10 @@
     --fonteTitulo: 'Bebas Neue';
 }
 
-body {
-    font-family: 'Courier New', Courier, monospace;
-    background-image: var(--fundoBody);
+html {
+    font-family: 'Courier New', Courier, sans-serif;
     background-color: rgb(16, 15, 15);
+    background-image: var(--fundoBody);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,45 +53,95 @@ main {
 }
 
 #titulo {
-    width: 95%;
+    width: 90%;
     margin-top: 2%;
-    margin-left: 3%;
+    margin-left: 4.5%;
 
 }
 
-#autor {
-    text-align: center;
-}
-
-#autor a {
-    text-decoration: none;
-    color: black;
-    font: 'Bebas neue', sans-serif;
-    padding: 10px;
-    font-size: clamp(2rem, 5vw, 50rem);
-}
-
-#autor a:hover {
-    color: red;
-    transition: 0.7s;
-}
-
-#kentaro {
-    width: 150px;
+hr {
+    margin-bottom: 10%;
 }
 
 #introducao {
     text-align: center;
     font-family: 'Bebas neue', sans-serif;
     color: black;
+    font-size: 3vw;
+}
+
+#video-intro {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#video {
+    width: 50%;
+    height: 400px;
+}
+#autor {
+    text-align: center;
+}
+
+#autor a {
+    text-decoration: none;
+}
+
+#autor-titulo {
+    display: inline;
+    font-family: 'Bebas neue', sans-serif;
+    padding: 30px;
+    font-size: 4vw;
+    color: black;
+}
+
+#autor-titulo:hover {
+    color: red;
+    transition: 0.7s;
+} 
+
+#kentaro {
+    width: 35%;
+    float: right;
+    margin: 5vh 0 4vh 3vw;
+    border-radius: 15px;
+}
+
+#obras {
+    font-weight: 800;
+}
+
+ul {
+    margin-left: 4vw;
 }
 
 .justificado {
-    text-indent: 6vw;
-    font-size: 2.5vw;
+    text-indent: 5vw;
+    font-size: 1.7rem;
     text-align: justify;
-    margin-top: 8%;
-    margin-right: 5%;
-    margin-bottom: 8%;
-    margin-left: 5%;
+    margin: 8% 5% 8% 5%;
+    font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+    .justificado {
+
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    .justificado {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .justificado {
+        font-size: 0.7rem;
+    }
+
 }
