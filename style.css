@@ -10,7 +10,7 @@
 :root {
     --fundoBody: url(img/fundo.jpg);
     --fundoMain: rgba(255, 255, 255, 0.922);
-    --fundoNav: rgb(16, 16, 16);
+    --fundoNav: rgb(14, 14, 14);
     --sombraMain: rgba(0, 0, 0, 0.642);
     --fonteTitulo: 'Bebas Neue';
 }
@@ -24,20 +24,46 @@ html {
     background-attachment: fixed;
 }
 
-nav {
-    overflow: hidden;
+header {
+    width: 100vw;
+    font-family: 'Bebas Neue';
+    height: 90px;
     background-color: var(--fundoNav);
+    text-align: right;
 }
 
-nav li {
-    float: left;
+header li {
+    display: inline-block;
+    line-height: 90px;
+    list-style: none;
 }
 
-nav a {
-    display: block;
-    color: white;
+header a {
     text-align: center;
+    padding: 30px;
+    color: white;
     text-decoration: none;
+}
+
+header li:hover {
+    background-color: rgba(99, 0, 0, 0.827);
+    transition: 1.7s;
+}
+
+nav {
+    width: 65%;
+    margin: auto;
+}
+
+
+#beherit {
+    float: left;
+    width: 70px;
+    margin-left: 1.5vw;
+}
+
+#pag2 {
+    margin-right: 18px;
 }
 
 main {
@@ -77,8 +103,9 @@ hr {
 
 #video {
     width: 50%;
-    height: 400px;
+    height: 373px;
 }
+
 #autor {
     text-align: center;
 }
@@ -124,28 +151,89 @@ ul {
 }
 
 @media (max-width: 1000px) {
-    .justificado {
 
+    #video {
+        width: 60%;
+        height: 200px;
+    }
+    
+    .justificado {
+        
         font-size: 1.2rem;
     }
-
+    
 }
 
 
 @media (max-width: 700px) {
+
+    
     .justificado {
         font-size: 1rem;
     }
+    
+}
 
+@media (max-width: 570px) {
+    #video {
+        width: 60%;
+        height: 170px;
+    }
+    nav {
+        width: 90%;
+    }
 }
 
 @media (max-width: 400px) {
+
+
+    header {
+        margin: auto;
+    }
+    
+    header a {
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #beherit {
+        margin-top: 5%;
+        width: 45px;
+        margin-left: 5%;
+    }
+
+    #titulo {
+        width: 70%;
+        margin-left: 17vw;
+    }
+
+    #autor-titulo {
+        font-size: 6vw;
+    }
+
+    #video-intro {
+        margin-bottom: 30px;
+    }
+
+    #video {
+        width: 60%;
+        height: 148px;
+
+    }
+    
+    nav {
+        width: 100%;
+    }
+
     .justificado {
         font-size: 0.7rem;
     }
 
     #introducao {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
 }
