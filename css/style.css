@@ -8,7 +8,7 @@
 }
 
 :root {
-    --fundoBody: url(img/fundo.jpg);
+    --fundoBody: url(../img/fundo.jpg);
     --fundoMain: rgba(255, 255, 255, 0.922);
     --fundoNav: rgb(14, 14, 14);
     --sombraMain: rgba(0, 0, 0, 0.642);
@@ -76,7 +76,7 @@ main {
     margin: auto;
     margin-top: 20vh;
     margin-bottom: 10vh;
-    padding-bottom: 2vh;
+    padding-bottom: 7vh;
     box-shadow: 25px 10px 25px var(--sombraMain);
 }
 
@@ -96,6 +96,32 @@ hr {
     font-family: 'Bebas neue', sans-serif;
     color: black;
     font-size: 3rem;
+}
+
+#protagonistas-titulo {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+    font-size: 3rem;
+} 
+
+#protagonistas-imagem {
+    width: 70%;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    margin-left: 1%;
+}
+
+#guts-titulo {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+
+#guts-imagem {
+    width: 300px;
+    float: right;
 }
 
 #video-intro {

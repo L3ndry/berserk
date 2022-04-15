@@ -16,3 +16,5 @@ valer uma melhoria na nota.
 referências:
 
 <a target="_blank" href="https://icons8.com/icon/y8q66v6ExjBy/berserk">Berserk</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+https://berserk.fandom.com/pt-br/wiki/Guts/Hist%C3%B3ria
