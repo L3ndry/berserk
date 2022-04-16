@@ -48,9 +48,19 @@ header a {
     text-decoration: none;
 }
 
+header a:active {
+    color: black;
+    transition: 1.7s;
+}
+
 header li:hover {
     background-color: rgba(99, 0, 0, 0.827);
     transition: 1.7s;
+}
+
+header li:active {
+    /* background-color: rgb(131, 0, 0); */
+    background-color: rgba(255, 255, 255, 0.947);
 }
 
 nav {
