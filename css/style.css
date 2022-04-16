@@ -48,19 +48,13 @@ header a {
     text-decoration: none;
 }
 
-header a:active {
-    color: black;
-    transition: 1.7s;
-}
-
 header li:hover {
     background-color: rgba(99, 0, 0, 0.827);
     transition: 1.7s;
 }
 
 header li:active {
-    /* background-color: rgb(131, 0, 0); */
-    background-color: rgba(255, 255, 255, 0.947);
+    background-color: rgb(183, 5, 5);
 }
 
 nav {
@@ -96,6 +90,16 @@ main {
     margin-left: 4.5%;
 }
 
+.video-intro {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.video {
+    width: 50%;
+    height: 373px;
+}
+
 hr {
     margin-bottom: 10%;
 }
@@ -106,8 +110,8 @@ ul {
 
 .justificado {
     text-indent: 5vw;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: justify;
     margin: 8% 5% 8% 5%;
-    font-weight: 5090;
+    font-weight: 500;
 }

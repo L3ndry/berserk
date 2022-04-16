@@ -2,7 +2,7 @@ html {
     background-image: url(../img/fundopag2.jpg);
 }
 
-#protagonistas-titulo {
+#personagens-titulo {
     
     text-align: center;
     font-family: 'Bebas neue', sans-serif;
@@ -10,7 +10,7 @@ html {
     font-size: 3.5rem;
 } 
 
-#protagonistas-imagem {
+#personagens-imagem {
     width: 75%;
     margin: 7% 0 6% 13%;
     border-radius: 10px;
@@ -28,10 +28,33 @@ html {
     float: right;
     margin: 0 3vw 3vh 4vw;
     border-radius: 10px;
+    box-shadow: 7px 7px 7px black;
 }
 
 #griffith-titulo {
     text-align: center;
     font-family: 'Bebas neue', sans-serif;
     font-size: 3.5rem;
+}
+
+#griffith-imagem {
+    margin: 1vh 4vw 4vh 3vw;
+    width: 300px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px black;
+}
+
+#caska-titulo {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 3.5rem;
+}
+
+#caska-imagem {
+    width: 300px;
+    float: right;
+    border-radius: 10px;
+    margin: 1vh 3vw 3vh 4vw;
+    box-shadow: 7px 7px 7px black;
 }

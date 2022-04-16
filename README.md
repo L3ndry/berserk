@@ -17,4 +17,11 @@ referências:
 
 <a target="_blank" href="https://icons8.com/icon/y8q66v6ExjBy/berserk">Berserk</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
+Guts
 https://berserk.fandom.com/pt-br/wiki/Guts/Hist%C3%B3ria
+
+Griffith
+https://berserk.fandom.com/pt-br/wiki/Griffith#:~:text=Griffith%20%C3%A9%20o%20antagonista%20principal,de%20Deus%3B%20conhecido%20como%20Femt.
+
+Casca
+https://berserk.fandom.com/pt-br/wiki/Casca#:~:text=seu%20peito%20esquerdo.-,Personalidade,uma%20espada%20para%20se%20defender.
