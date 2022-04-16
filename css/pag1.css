@@ -44,19 +44,31 @@
 }
 
 #obras-bloco {
-    margin: 4%;
+    margin: 7%;
     padding: 4%;
-    background-color: rgba(0, 0, 0, 0.34);
+    background-color: rgba(0, 0, 0, 0.163);
     font-family: 'Bebas neue', sans-serif;
+    border-radius: 15px;
+    height: 225px;
 }
 
 #obras-titulo {
-    font-weight: 800;
     float: left;
-    margin-left: 7vw;
+    font-weight: 800;
+    margin-left: 3vw;
+    line-height: 100px;
 }
 
 #obras {
     float: right;
-    margin-right: 12vw;
+    margin-right: 8vw;
+}
+
+#obras li {
+    letter-spacing: 2px;
+}
+
+#obras li:hover {
+    transition: 0.3s;
+    color: red;
 }
