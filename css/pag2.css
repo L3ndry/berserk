@@ -1,0 +1,37 @@
+html {
+    background-image: url(../img/fundopag2.jpg);
+}
+
+#protagonistas-titulo {
+    
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+    font-size: 3.5rem;
+} 
+
+#protagonistas-imagem {
+    width: 75%;
+    margin: 7% 0 6% 13%;
+    border-radius: 10px;
+}
+
+#guts-titulo {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+    font-size: 3.5rem;
+}
+
+#guts-imagem {
+    width: 300px;
+    float: right;
+    margin: 0 3vw 3vh 4vw;
+    border-radius: 10px;
+}
+
+#griffith-titulo {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 3.5rem;
+}

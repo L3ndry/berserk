@@ -80,90 +80,14 @@ main {
     box-shadow: 25px 10px 25px var(--sombraMain);
 }
 
-#titulo {
+.titulo {
     width: 90%;
     margin-top: 2%;
     margin-left: 4.5%;
-
 }
 
 hr {
     margin-bottom: 10%;
-}
-
-#introducao {
-    text-align: center;
-    font-family: 'Bebas neue', sans-serif;
-    color: black;
-    font-size: 3rem;
-}
-
-#protagonistas-titulo {
-    text-align: center;
-    font-family: 'Bebas neue', sans-serif;
-    color: black;
-    font-size: 3rem;
-} 
-
-#protagonistas-imagem {
-    width: 70%;
-    margin-top: 7%;
-    margin-bottom: 6%;
-    margin-left: 1%;
-}
-
-#guts-titulo {
-    text-align: center;
-    font-family: 'Bebas neue', sans-serif;
-    color: black;
-    font-size: 3rem;
-}
-
-#guts-imagem {
-    width: 300px;
-    float: right;
-}
-
-#video-intro {
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-#video {
-    width: 50%;
-    height: 373px;
-}
-
-#autor {
-    text-align: center;
-}
-
-#autor a {
-    text-decoration: none;
-}
-
-#autor-titulo {
-    display: inline;
-    font-family: 'Bebas neue', sans-serif;
-    padding: 30px;
-    font-size: 4vw;
-    color: black;
-}
-
-#autor-titulo:hover {
-    color: red;
-    transition: 0.7s;
-} 
-
-#kentaro {
-    width: 35%;
-    float: right;
-    margin: 5vh 0 4vh 3vw;
-    border-radius: 15px;
-}
-
-#obras {
-    font-weight: 800;
 }
 
 ul {
@@ -176,91 +100,4 @@ ul {
     text-align: justify;
     margin: 8% 5% 8% 5%;
     font-weight: 500;
-}
-
-@media (max-width: 1000px) {
-    #video {
-        width: 60%;
-        height: 200px;
-    }
-    
-    .justificado {   
-        font-size: 1.2rem;
-    }    
-}
-
-@media (max-width: 700px) {
-    .justificado {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 570px) {
-    #video {
-        width: 60%;
-        height: 170px;
-    }
-
-    nav {
-        width: 90%;
-    }
-}
-
-@media (max-width: 400px) {
-    header li {
-        line-height: 50px;
-    }
-
-    main {
-        margin-top: 180px;
-    }
-
-    header {
-        margin: auto;
-        height: 50px;
-    }
-    
-    header a {
-        font-size: 10px;
-        text-align: center;
-        padding: 20px;
-        color: white;
-        text-decoration: none;
-    }
-
-    #beherit {
-        margin-top: 2%;
-        width: 30px;
-        margin-left: 5%;
-    }
-
-    #titulo {
-        width: 70%;
-        margin-left: 15vw;
-    }
-
-    #autor-titulo {
-        font-size: 6vw;
-    }
-
-    #video-intro {
-        margin-bottom: 30px;
-    }
-
-    #video {
-        width: 60%;
-        height: 148px;
-    }
-    
-    nav {
-        width: 100%;
-    }
-
-    .justificado {
-        font-size: 0.7rem;
-    }
-
-    #introducao {
-        font-size: 1rem;
-    }
 }

@@ -1,0 +1,62 @@
+#introducao {
+    text-align: center;
+    font-family: 'Bebas neue', sans-serif;
+    color: black;
+    font-size: 2.5rem;
+}
+
+#video-intro {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#video {
+    width: 50%;
+    height: 373px;
+}
+
+#autor {
+    text-align: center;
+}
+
+#autor a {
+    text-decoration: none;
+}
+
+#autor-titulo {
+    display: inline;
+    font-family: 'Bebas neue', sans-serif;
+    padding: 30px;
+    font-size: 3.5vw;
+    color: black;
+}
+
+#autor-titulo:hover {
+    color: red;
+    transition: 0.7s;
+} 
+
+#kentaro {
+    width: 35%;
+    float: right;
+    margin: 80px 3vw 2vh 3vw;
+    border-radius: 15px;
+}
+
+#obras-bloco {
+    margin: 4%;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.34);
+    font-family: 'Bebas neue', sans-serif;
+}
+
+#obras-titulo {
+    font-weight: 800;
+    float: left;
+    margin-left: 7vw;
+}
+
+#obras {
+    float: right;
+    margin-right: 12vw;
+}
