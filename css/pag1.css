@@ -1,10 +1,9 @@
-#introducao {
+.titulo {
     text-align: center;
     font-family: 'Bebas neue', sans-serif;
     color: black;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
-
 
 #autor {
     text-align: center;
@@ -34,7 +33,14 @@
     border-radius: 15px;
 }
 
+.link-vermelho {
+    color: red;
+}
+
 #obras-bloco {
+    font-size: clamp(1vw, 0.8em, 2vw);
+    display: flex;
+    flex-direction: row;
     margin: 7% 7% 0 7%;
     padding: 4%;
     background-color: rgba(0, 0, 0, 0.163);
@@ -44,15 +50,16 @@
 }
 
 #obras-titulo {
-    float: left;
+    font-size: clamp(1.5vw, 2em, 2vw);
     font-weight: 800;
-    margin-left: 3vw;
-    line-height: 100px;
+    
+    line-height: 225px;
 }
 
 #obras {
-    float: right;
-    margin-right: 8vw;
+    line-height: 20px;
+    margin-right: 4vw;
+    margin-left: 15vw;
 }
 
 #obras li {
