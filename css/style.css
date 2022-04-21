@@ -116,3 +116,43 @@ ul {
     margin: 7% 5% 7% 5%;
     font-weight: 500;
 }
+
+footer {
+    height: 100px;
+    background-color: var(--fundoNav);
+}
+
+.avisoLimite {
+    color: gray;
+}
+
+.CAMPO {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+.footer-botao {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    resize: none; /* desabilita o resize do textarea | (valores: none, vertical, horizontal.) */
+}
+
+textarea::placeholder {
+    color:white;
+    font-weight: bold;
+}
+
+.botaoEnvia {
+    width: 15%;
+    margin-left: 85%;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    float: right;
+}
